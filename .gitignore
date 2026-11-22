@@ -5,6 +5,9 @@ node_modules/
 dist/
 dist-ssr/
 
+# Netlify local state
+.netlify/
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
