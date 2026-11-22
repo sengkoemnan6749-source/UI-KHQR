@@ -1,0 +1,61 @@
+export const PRODUCTS = [
+  {
+    id: 1,
+    sku: 'KRM-LAP-01',
+    name: 'Laptop',
+    category: 'Computers',
+    accentColor: '#1d4ed8',
+    image: '/images/laptop.jpg',
+    price: 650,
+    spec: '14" IPS Display · 16GB RAM · 512GB NVMe SSD',
+    description: 'Slim aluminum workstation built for everyday productivity and smooth multitasking.',
+  },
+  {
+    id: 2,
+    sku: 'KRM-MOU-02',
+    name: 'Mouse',
+    category: 'Accessories',
+    accentColor: '#c2410c',
+    image: '/images/mouse.jpg',
+    price: 15,
+    spec: '2.4GHz Wireless · 1600 DPI · Silent Click',
+    description: 'Ergonomic optical mouse with responsive tracking and long battery endurance.',
+  },
+  {
+    id: 3,
+    sku: 'KRM-KEY-03',
+    name: 'Keyboard',
+    category: 'Accessories',
+    accentColor: '#047857',
+    image: '/images/keyboard.jpg',
+    price: 25,
+    spec: 'Compact 87-Key · Tactile Switches · USB-C',
+    description: 'Crisp key travel with two-tone keycaps and sturdy spill-resistant frame.',
+  },
+  {
+    id: 4,
+    sku: 'KRM-MON-04',
+    name: 'Monitor',
+    category: 'Displays',
+    accentColor: '#6d28d9',
+    image: '/images/monitor.jpg',
+    price: 120,
+    spec: '24" Full HD · 75Hz · Ultra-Thin Bezel',
+    description: 'Anti-glare IPS panel with vivid sRGB color accuracy and tilt-adjustable stand.',
+  },
+]
+
+export const SHIPPING_METHODS = [
+  {
+    id: 'free',
+    label: 'Free Shipping',
+    eta: '7–20 Business Days',
+    cost: 0,
+  },
+  {
+    id: 'express',
+    label: 'Express Shipping',
+    eta: '1–3 Business Days',
+    cost: 9,
+  },
+]
